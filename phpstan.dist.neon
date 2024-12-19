@@ -7,6 +7,5 @@ parameters:
 
     checkMissingIterableValueType: false
     checkUninitializedProperties: true
-    checkForMissingIterableValueType: true
     reportUnmatchedIgnoredErrors: true
     reportUnmatchedIgnoredErrorsDepth: 2
