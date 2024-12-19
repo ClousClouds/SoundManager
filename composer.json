@@ -1,0 +1,22 @@
+{
+    "name": "xpocketmp/sounds",
+    "description": "A plugin or library for XPocketMP for handling Minecraft Bedrock Edition sounds",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "pocketmine/bedrock-protocol": "^35.0.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "~1.11.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\pocketmine\\world\\sound\\": "src/"
+        }
+    },
+    "scripts": {
+        "phpstan": "phpstan analyse"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
