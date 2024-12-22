@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "\\pocketmine\\world\\sound\\": "src/"
+            "\\pocketmine\\world\\sound\\": "src/world/sound"
         }
     },
     "scripts": {
