@@ -3,6 +3,7 @@
     "description": "A plugin or library for XPocketMP for handling Minecraft Bedrock Edition sounds",
     "type": "library",
     "license": "MIT",
+    "version": "1.2.0",
     "require": {
         "pocketmine/bedrock-protocol": "^35.0.0",
         "pocketmine/math": "1.0.0"
