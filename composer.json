@@ -1,6 +1,6 @@
 {
     "name": "xpocketmp/sounds",
-    "description": "A plugin or library for XPocketMP for handling Minecraft Bedrock Edition sounds",
+    "description": "A library for XPocketMP for handling Minecraft Bedrock Edition sounds",
     "type": "library",
     "license": "MIT",
     "version": "1.2.0",
