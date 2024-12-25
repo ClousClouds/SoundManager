@@ -25,11 +25,11 @@ namespace pocketmine\world\sound;
 
 use pocketmine\math\Vector3;
 use pocketmine\network\mcpe\protocol\LevelEventPacket;
-use pocketmine\network\mcpe\protocol\types\LevelEvent;
+use pocketmine\network\mcpe\protocol\types\LevelSoundEvent;
 
 class MaceHeavySmashGroundSound implements Sound{
 
 	public function encode(Vector3 $pos) : array{
-		return [LevelEventPacket::create(LevelEvent::MACE_HEAVY_SMASH_GROUND, 0, $pos)];
+		return [LevelEventPacket::create(LevelSoundEvent::MACE_HEAVY_SMASH_GROUND, 0, $pos)];
 	}
 }
