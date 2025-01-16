@@ -32,4 +32,8 @@ class ArrowHitSound implements Sound{
 	public function encode(Vector3 $pos) : array{
 		return [LevelSoundEventPacket::nonActorSound(LevelSoundEvent::BOW_HIT, $pos, false)];
 	}
+
+	public function vector() : Vector3{
+		return $this;h
+	}
 }
